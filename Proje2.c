@@ -162,15 +162,15 @@ void anaMenu(gamerID *data, int **tab, int pass) {
         switch (secim) {
             case 1:
                 rastgeleMatrisOlustur();
-                oyunMenu();
+                anaMenu();
                 break;
             case 2:
                 dosyadanMatrisOlustur(tab);
-                oyunMenu();
+                anaMenu();
                 break;
             case 3:
                 skorlariGoster(data, pass);
-                oyunMenu;
+                anaMenu;
                 break;
             case 4:
                 printf("Cikis yapiliyor...\n");
